@@ -554,7 +554,7 @@ def banner(ui):
     w = ui.width
     tl, tr, bl, br, h, v = (ui.g("╭", "+"), ui.g("╮", "+"), ui.g("╰", "+"),
                             ui.g("╯", "+"), ui.g("─", "-"), ui.g("│", "|"))
-    title = "yaspeed"
+    title = "YandexSpeedTestCLI"
     sub = f"замер скорости через Яндекс.Интернетометр  v{__version__}"
     print(ui.dim(tl + h * (w - 2) + tr))
     print(ui.dim(v) + " " + ui.bold(ui.cyan(title)) + " " +
@@ -632,7 +632,7 @@ def summary(ui, out):
 
 def build_parser():
     p = argparse.ArgumentParser(
-        prog="yaspeed",
+        prog="YandexSpeedTestCLI",
         description="Замер скорости интернета через API Яндекс.Интернетометра.",
         epilog=f"Исходники и багрепорты: {REPO}",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -663,7 +663,7 @@ def build_parser():
     p.add_argument("--no-color", action="store_true", help="без цвета")
     p.add_argument("--ascii", action="store_true", help="без юникод-графики")
     p.add_argument("-V", "--version", action="version",
-                   version=f"yaspeed {__version__} — {REPO}")
+                   version=f"YandexSpeedTestCLI {__version__} — {REPO}")
     return p
 
 
