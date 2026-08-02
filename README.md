@@ -1,4 +1,4 @@
-# yaspeed
+# YandexSpeedTestCLI
 
 Замер скорости интернета прямо в терминале — через публичный API [Яндекс.Интернетометра](https://yandex.ru/internet).
 
