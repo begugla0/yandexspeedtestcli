@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-yaspeed — измеритель скорости интернета в терминале.
+YandexSpeedTestCLI — измеритель скорости интернета в терминале.
 Работает через публичный API Яндекс.Интернетометра (yandex.ru/internet).
 
   https://github.com/begugla0/yandexspeedtestcli
